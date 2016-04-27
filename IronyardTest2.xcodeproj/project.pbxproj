@@ -13,6 +13,7 @@
 		F0BA26541CD11208005A55FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BA26521CD11208005A55FD /* Main.storyboard */; };
 		F0BA26561CD11208005A55FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BA26551CD11208005A55FD /* Assets.xcassets */; };
 		F0BA26591CD11208005A55FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BA26571CD11208005A55FD /* LaunchScreen.storyboard */; };
+		F0BA26621CD112D7005A55FD /* TipCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA26611CD112D7005A55FD /* TipCalc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F0BA26551CD11208005A55FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BA26581CD11208005A55FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BA265A1CD11208005A55FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BA26601CD112D7005A55FD /* TipCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalc.h; sourceTree = "<group>"; };
+		F0BA26611CD112D7005A55FD /* TipCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				F0BA26571CD11208005A55FD /* LaunchScreen.storyboard */,
 				F0BA265A1CD11208005A55FD /* Info.plist */,
 				F0BA26491CD11208005A55FD /* Supporting Files */,
+				F0BA26601CD112D7005A55FD /* TipCalc.h */,
+				F0BA26611CD112D7005A55FD /* TipCalc.m */,
 			);
 			path = IronyardTest2;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BA26621CD112D7005A55FD /* TipCalc.m in Sources */,
 				F0BA26511CD11208005A55FD /* ViewController.m in Sources */,
 				F0BA264E1CD11208005A55FD /* AppDelegate.m in Sources */,
 				F0BA264B1CD11208005A55FD /* main.m in Sources */,
